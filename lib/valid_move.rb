@@ -1,5 +1,9 @@
 def valid_move?(board, index)
-  if position_taken?(board, index) == "X" || position_taken(board, index) == "O"
+  if board[index] == "" || board[index] == " " || board[index] == nil
+    false
+  elsif board[index] == "X" || board[index] == "O"
+  true
+elsif position_taken?(board, index) == "X" || position_taken(board, index) == "O"
     true
   elsif valid_move?(board, index) > 9
     true
