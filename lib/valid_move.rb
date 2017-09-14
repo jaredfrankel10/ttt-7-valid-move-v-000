@@ -7,7 +7,7 @@ elsif position_taken?(board, index) == "X" || position_taken(board, index) == "O
     true
   elsif valid_move?(board, index) > 9
     true
-    
+
 
   end
 end# code your #valid_move? method here
