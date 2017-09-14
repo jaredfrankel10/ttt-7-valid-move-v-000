@@ -1,6 +1,6 @@
 def valid_move?(board, index)
   if valid_move?(board, index) == "" || valid_move?(board, index) == " " || valid_move?(board, index) == nil
-    true
+    false
   elsif board[index] == "X" || board[index] == "O"
   true
 elsif position_taken?(board, index) == "X" || position_taken(board, index) == "O"
