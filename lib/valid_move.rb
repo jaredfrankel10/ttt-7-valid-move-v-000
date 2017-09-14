@@ -1,8 +1,8 @@
 def valid_move?(board, index)
   if position_taken?(board, index) == "X" || position_taken(board, index) == "O"
-    false
+    true
   elsif index > 9
-    false
+    true
 
   end
 end# code your #valid_move? method here
