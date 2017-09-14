@@ -3,7 +3,7 @@ def valid_move?(board, index)
     false
   elsif index > 9
     false
-    
+
   end
 end# code your #valid_move? method here
 
